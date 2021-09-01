@@ -1,0 +1,18 @@
+{
+  "name": "note-app",
+  "version": "1.0.0",
+  "description": "HTML note taking app with express js backend.",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Ilya Spivakov",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^27.1.0"
+  }
+}

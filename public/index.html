@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes</title>
+
+    <!-- Compiled and minified materialize CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="row m-0">
+      <div class="col s12 light-blue" id="header">
+        <h4>Note Taker</h4>
+        <div id="action-buttons">
+          <i class="material-icons ">save</i>
+          <i class="material-icons ">add</i>
+        </div>
+      </div>
+    </div>
+    <div class="row m-0">
+      <div class="col s5 light-green" id="sidebar">
+        <ul class="collection" id="note-collection">
+          <li class="collection-item">
+            Alvin<a href="#!" class="secondary-content"
+              ><i class="material-icons red-text">delete</i></a
+            >
+          </li>
+          <li class="collection-item">Alvin</li>
+          <li class="collection-item">Alvin</li>
+          <li class="collection-item">Alvin</li>
+        </ul>
+      </div>
+      <div class="col s7 cyan" id="editor">
+        <div class="row">
+          <div class="col s12"><input id="note-title" /></div>
+        </div>
+        <div class="row">
+          <div class="col s12"><textarea id="note-text"></textarea></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./js/app.js"></script>
+  <!-- Compiled and minified materialize JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>
